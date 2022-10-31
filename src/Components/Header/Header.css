@@ -1,0 +1,47 @@
+.list{
+    display: flex;
+    list-style:none;
+    justify-content: center;
+}
+
+.item{
+
+    margin-right: 1em;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-decoration: none;
+  
+    color: #000000;
+    
+    
+}
+
+.nome{
+    justify-content: center;
+    display: flex;
+    font-size: 1rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+}
+
+.Header{
+    
+    border-bottom: 1px solid #B0CCE1;
+    
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:#B0CCE1;   
+}
+a.current:link, a.current:visited {
+    color: white;
+    background-color: blue;
+  }
