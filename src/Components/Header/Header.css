@@ -2,6 +2,7 @@
     display: flex;
     list-style:none;
     justify-content: center;
+
 }
 
 .item{
@@ -13,10 +14,21 @@
     font-size: 1.5rem;
     text-decoration: none;
   
-    color: #000000;
-    
-    
+    color: white;
+   
 }
+.menu{
+    display: flex !important;
+    justify-content: right;
+    width: 50%;
+
+}
+
+.logo{
+    max-height: 40px;
+    padding-right: 25px;
+}
+
 
 .nome{
     justify-content: center;
@@ -25,18 +37,21 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
+    color: white;
 }
 
-.Header{
+.Header{  
+    background-color: #212529;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
     
-    border-bottom: 1px solid #B0CCE1;
-    
-
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 a:hover{
     color:#B0CCE1;   

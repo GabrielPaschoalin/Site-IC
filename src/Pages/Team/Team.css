@@ -1,0 +1,18 @@
+.Titulo_2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.head{
+    justify-content: center;
+    display: flex;
+    
+}
+
+.allPage{
+    
+    padding: 50px 100px;
+}
